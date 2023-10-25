@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajo practico condicionales</title>
+</head>
+
+<body style="margin: 2%;">
+    <h1>CSS? ni idea</h1>
+    <button onclick="saludo('a')" style="width: 164px;">1- Mensaje de bienvenida</button>
+    <button onclick="mayorEdad(0)" style="width: 164px">2- Mayor de edad</button>
+    <button onclick="categoriaEdad(0)" style="width: 164px">3- Categoria de edad</button>
+    <button onclick="diaLaborable('a')" style="width: 164px">4- Día laborable o fin de semana</button>
+    <div>
+        <label>5- Ingrese una contraseña</label>
+        <input id="datos" type="password" />
+        <button onclick="contraseña()" style="width: 164px">verificar contraseña</button>
+        <p id="mensaje"></p>
+    </div>
+    <div>
+        <label>6- Ingrese un número</label>
+        <input id="data" type="number" />
+        <button onclick="multiplo()" style="width: 164px">Multiplo de 5</button>
+        <p id="mensaje2"></p>
+    </div>
+    <h2>El punto 7 es una funcion suelta, descuento(edad, precio)</h2>
+    <div>
+        <label>8- Ingrese una nota del 0 al 100</label>
+        <input id="nota" type="number" />
+        <button onclick="notas2()" style="width: 164px">Enviar</button>
+        <p id="mensaje3"></p>
+    </div>
+    <div>
+        <label>9- Elija un número</label>
+        <select id="menu" name="menu">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+        </select>
+        <button onclick="diaSemana()" style="width: 164px">Enviar</button>
+        <p id="mensaje4"></p>
+    </div>
+    <div>
+        <label>10- Ingrese un año</label>
+        <input id="año" type="number" />
+        <button onclick="bisiesto2()" style="width: 164px">Enviar</button>
+        <p id="mensaje5"></p>
+    </div>
+    <button onclick="cadena('a', 'b')" style="width: 164px">11- Igualdad de textos</button>
+    <div>
+        <label>12- Ingrese su año de nacimiento</label>
+        <input id="añoNace" type="number" />
+        <button onclick="edadActual2()" style="width: 164px">Enviar</button>
+        <p id="mensaje6"></p>
+    </div>
+</body>
+<script src=" jsEvo2.js"></script>
+
+</html>
