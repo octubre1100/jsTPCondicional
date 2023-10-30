@@ -159,7 +159,7 @@ function diaSemana() {
 }
 // 10)
 function bisiesto(num) {
-    if ((num % 4 == 0) && (num % 100 != 0)) {
+    if ((num % 400 == 0)||(num % 4 == 0) && (num % 100 != 0)) {
         return num + " Es un año bisiesto"
     }
     else {
@@ -168,7 +168,7 @@ function bisiesto(num) {
 }
 // 10.2)
 function bisiesto2() {
-    if ((document.getElementById("año").value % 4 == 0) && (document.getElementById("año").value % 100 != 0)) {
+    if ((document.getElementById("año").value % 400 == 0) || (document.getElementById("año").value % 4 == 0) && (document.getElementById("año").value % 100 != 0)) {
         document.getElementById("mensaje5").innerHTML = "Es un año bisiesto"
     }
     else {
